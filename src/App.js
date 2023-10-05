@@ -8,7 +8,7 @@ import {useState} from "react";
 
 function App() {
 
-    const [mode, setMode] = useState("light");
+    const [mode, setMode] = useState("dark");
     const darkTheme = createTheme({
         palette: {
             mode: mode,
